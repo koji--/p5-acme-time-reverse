@@ -9,7 +9,8 @@ our @EXPORT_OK = qw/time_reverse/;
 
 sub time_reverse {
     my $form = shift;
-    reverse(localtime->strftime($form));
+    my $rev = reverse(localtime->strftime($form));
+    return $rev;
 }
 
 1;
