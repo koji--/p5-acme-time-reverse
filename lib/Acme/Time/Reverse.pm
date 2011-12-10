@@ -37,7 +37,7 @@ Koji Takiguchi E<lt>kojiel {at} gmail.comE<gt>
 
 =head1 SEE ALSO
 
-<L>Time::Piece
+L<Time::Piece>
 
 =head1 LICENSE
 
